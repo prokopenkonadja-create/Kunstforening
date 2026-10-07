@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Priser, adresse og praktisk information til dit besøg hos kunstforeningen.">
+  <title>Besøg | Studenternes Kunstforening Sjælland</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="visit-page">
+  <!-- Headeren genbruges på alle sider, så navigation og identitet er genkendelige. -->
+  <header class="site-header">
+    <img class="brand-mark" src="assets/logo.png" alt="Foreningens grafiske logo">
+    <h1 class="brand-name">Studenternes<br>Kunstforeningen<br>Sjælland</h1>
+    <p class="tagline">hvor kunst og fællesskab mødes i konstant udvikling</p>
+    <nav class="site-nav" aria-label="Hovednavigation">
+      <ul>
+        <li><a href="det-sker.html">Det sker</a></li>
+        <li><a href="besog.html" aria-current="page">Besøg</a></li>
+        <li><a href="om-os.html">Om os</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Hovedsektionen viser to artikler med Figma-fotos og besøgsinformation. -->
+  <main class="visit-page-main">
+    <section class="visit-grid" aria-label="Information om besøget">
+      <article class="visit-card">
+        <img src="assets/besog-galleri.png" alt="Lille museumsbygning med indgang og have">
+        <h2>Besøg Kunstforeningen Sjælland og oplev vores aktuelle udstillinger.</h2>
+        <p>Studerende: 40 kr.<br>Voksne: 75 kr.<br>Børn under 12 år: Gratis</p>
+        <p class="visit-details">Billetter kan købes online eller ved indgangen.</p>
+      </article>
+      <article class="visit-card">
+        <img src="assets/besog-kunst.png" alt="Busstoppested tæt ved grønne områder">
+        <h2>Kunstforeningen er nem at besøge med både offentlig transport, cykel og bil.</h2>
+        <p>Offentlig transport: Nærmeste busstoppested ligger få minutters gang fra kunstforeningen.</p>
+        <p>Cykel: Der er mulighed for cykelparkering tæt ved indgangen.</p>
+        <p>Bil: Der findes parkeringsmuligheder i nærområdet.</p>
+      </article>
+    </section>
+  </main>
+  <!-- Footerens tre sektioner er semantisk adskilt med hver sin overskrift. -->
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <section class="contact-block" aria-labelledby="contact-title">
+        <h2 id="contact-title">Kontakt</h2>
+        <p>Tlf. +45 00 00 00 00<br>Mail: <a href="mailto:kunstforeningensjaelland@gmail.dk">kunstforeningensjaelland@gmail.dk</a></p>
+      </section>
+      <section aria-labelledby="hours-title">
+        <h2 id="hours-title">Åbningstider</h2>
+        <p>Hverdage - 08:00-17:00<br>Weekend - 09:00-18:00</p>
+      </section>
+      <section aria-labelledby="social-title">
+        <h2 id="social-title">Sociale medier</h2>
+        <ul class="social-links">
+          <li><a href="https://www.facebook.com/" aria-label="Facebook"><img src="assets/facebook.png" alt="Facebook"></a></li>
+          <li><a href="https://www.instagram.com/" aria-label="Instagram"><img src="assets/instagram.png" alt="Instagram"></a></li>
+          <li><a href="https://www.youtube.com/" aria-label="YouTube"><img src="assets/youtube.png" alt="YouTube"></a></li>
+        </ul>
+      </section>
+    </div>
+  </footer>
+</body>
+</html>
+
+

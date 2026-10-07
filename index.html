@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Velkommen til Studenternes Kunstforening Sjælland. Se vores udstillinger og køb billetter.">
+  <title>Forside | Studenternes Kunstforening Sjælland</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Headeren følger Figma-forsidens beige baggrund og samler logo og navigation. -->
+  <header class="site-header home-header">
+    <img class="brand-mark" src="assets/logo.png" alt="Foreningens grafiske logo">
+    <h1 class="brand-name">Studenternes<br>Kunstforeningen<br>Sjælland</h1>
+    <p class="tagline">hvor kunst og fællesskab mødes i konstant udvikling</p>
+    <!-- Nav-elementet giver adgang til forsiden og alle tre undersider. -->
+    <nav class="site-nav" aria-label="Hovednavigation">
+      <ul>
+        <li><a href="det-sker.html">Det sker</a></li>
+        <li><a href="besog.html">Besøg</a></li>
+        <li><a href="om-os.html">Om os</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Forsidens section fremviser de tre udstillinger som selvstændige artikler. -->
+  <main class="home-main">
+    <section class="home-gallery" aria-label="Aktuelle udstillinger">
+      <div class="home-image-frame">
+        <figure class="home-image-card" tabindex="0">
+          <img src="assets/forside-fotoudstilling.png" alt="Fotoudstilling med værker ophængt på en gallerivæg">
+          <figcaption>Fotoudstillingen</figcaption>
+        </figure>
+        <figure class="home-image-card" tabindex="0">
+          <img src="assets/forside-skulptur.png" alt="Besøgende ser på skulpturer i et udstillingsrum">
+          <figcaption>Skulpturudstillingen</figcaption>
+        </figure>
+        <figure class="home-image-card" tabindex="0">
+          <img src="assets/forside-maleri.png" alt="Farverigt maleri udstillet på en væg">
+          <figcaption>Malerieudstillingen</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="home-actions" aria-label="Billetter til udstillingerne">
+      <a class="action-button" href="mailto:kunstforeningensjaelland@gmail.dk?subject=Billet%20til%20billedudstilling">Køb</a>
+      <a class="action-button" href="mailto:kunstforeningensjaelland@gmail.dk?subject=Billet%20til%20skulpturudstilling">Køb</a>
+      <a class="action-button" href="mailto:kunstforeningensjaelland@gmail.dk?subject=Billet%20til%20maleriudstilling">Køb</a>
+    </section>
+  </main>
+  <!-- Footeren viser kontaktoplysninger, åbningstider og sociale medier. -->
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <section class="contact-block" aria-labelledby="contact-title">
+        <h2 id="contact-title">Kontakt</h2>
+        <p>Tlf. +45 00 00 00 00<br>Mail: <a href="mailto:kunstforeningensjaelland@gmail.dk">kunstforeningensjaelland@gmail.dk</a></p>
+      </section>
+      <section aria-labelledby="hours-title">
+        <h2 id="hours-title">Åbningstider</h2>
+        <p>Hverdage - 08:00-17:00<br>Weekend - 09:00-18:00</p>
+      </section>
+      <section aria-labelledby="social-title">
+        <h2 id="social-title">Sociale medier</h2>
+        <ul class="social-links">
+          <li><a href="https://www.facebook.com/" aria-label="Facebook"><img src="assets/facebook.png" alt="Facebook"></a></li>
+          <li><a href="https://www.instagram.com/" aria-label="Instagram"><img src="assets/instagram.png" alt="Instagram"></a></li>
+          <li><a href="https://www.youtube.com/" aria-label="YouTube"><img src="assets/youtube.png" alt="YouTube"></a></li>
+        </ul>
+      </section>
+    </div>
+  </footer>
+</body>
+</html>
