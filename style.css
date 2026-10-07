@@ -41,6 +41,14 @@ a:focus-visible { outline: 3px solid #185e22; outline-offset: 3px; }
   line-height: 1.4;
   text-align: left;
 }
+
+.brand-link {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  text-decoration: none;
+  color: inherit;
+}
 .tagline {
   flex: 1 1 280px;
   max-width: 350px;
